@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;800&display=swap");
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: "Poppins", sans-serif;
+  color: #f4eee6;
+  background-color: black;
+}
+body {
+  width: 70vw;
+  margin: 0 auto;
+}
+h1 {
+  font-weight: 800;
+}
+.container {
+  display: unset;
+}
+div {
+  display: flex;
+  align-items: center;
+  width: 70vw;
+}
+.header {
+  margin-top: 30px;
+  height: 20vh;
+  justify-content: space-between;
+}
+.logo {
+  height: 15vh;
+  max-height: 120px;
+}
+.hi {
+  margin-top: 20vh;
+}
+.showcase {
+  display: unset;
+}
+.show1,
+.show2,
+.show3,
+.show4,
+.show5 {
+  height: 80vh;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 60px;
+}
+.show1 {
+  background-image: url("./Images/Burgers.jpg");
+}
+.show2 {
+  background-image: url("./Images/Roses.jpg");
+}
+.show3 {
+  background-image: url("./Images/Fashion.jpg");
+}
+.show4 {
+  background-image: url("./Images/Forniture.jpg");
+}
+.show5 {
+  background-image: url("./Images/Greek.jpg");
+  margin-bottom: 60px;
+}
+.contact {
+  display: unset;
+}
+/* Customized scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(26, 26, 26);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #383737;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(48, 48, 48);
+}
